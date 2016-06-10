@@ -1,0 +1,82 @@
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+section#nav {
+  position:fixed;
+}
+
+#main {
+  background-image: url('../img/trail.JPG') no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+
+  #about-cta {
+    position: relative;
+    top: 220px;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+      color: #FFFFFF;
+
+      &:hover {
+        color: #34381c;
+      }
+    }
+  }
+
+  #inner {
+    vertical-align: middle;
+    padding-top: 20%;
+
+    img {
+      border-radius: 50%;
+      box-shadow: 1px 1px 8px rgba(0,0,0,.5);
+    }
+  }
+
+  h1 {
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+
+}
+
+#about {
+  background-color: #a2a689;
+  line-height: 24px;
+
+  h3 {
+    padding: 20px 0;
+  }
+
+  #contact {
+    padding: 30px 0;
+  }
+}
+
+section {
+  overflow: hidden;
+}
+
+/*@include breakpoint(small) {
+  #main h1 {
+    font-size: 1rem;
+  }
+
+  #about-cta {
+    display:none;
+  }
+}
+
+@include breakpoint(medium) {
+  #main h1 {
+    font-size: 2rem;
+  }
+
+}*/
