@@ -38,6 +38,8 @@ section#nav {
     padding: 20px 0; }
   #about #contact {
     padding: 30px 0; }
+  #about .columns p {
+    padding: 30px 0; }
 
 section {
   overflow: hidden; }
